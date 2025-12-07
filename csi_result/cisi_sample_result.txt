@@ -1,0 +1,55 @@
+Model: VSM
+query: What problems and concerns are there in making up descriptive titles? What difficulties are involved in automatically retrieving articles from approximate titles? What is the usual relevance of the content of articles to their titles?
+Retrieved Document ID: 722
+Content: Information Transfer Limitations of Titles of Chemical Documents   Some methods of estimating the minimum amounts of information in a document not retrievable through its title are discussed.  An analysis of the information transferred by different types of keywords is helpful in planning search strategies, e.g., 30% of chemical substances mentioned in journal articles are not discernable in their titles even when broad class names are used as synonyms.  Patents have considerably less informative titles than journal articles.  In nuclear science, report titles are also less informative than  those of journal articles, but the proportion of reports with completely  uninformative titles is now only 10% of the 1957 value.  Titles in chemistry are more informative than those in most other fields, but the use of alerting and other services based on titles requires a good understanding of the underlying information transfer principles.
+--------------------
+Model: The Language Model
+query: What problems and concerns are there in making up descriptive titles? What difficulties are involved in automatically retrieving articles from approximate titles? What is the usual relevance of the content of articles to their titles?
+Retrieved Document ID: 722
+Content: Information Transfer Limitations of Titles of Chemical Documents   Some methods of estimating the minimum amounts of information in a document not retrievable through its title are discussed.  An analysis of the information transferred by different types of keywords is helpful in planning search strategies, e.g., 30% of chemical substances mentioned in journal articles are not discernable in their titles even when broad class names are used as synonyms.  Patents have considerably less informative titles than journal articles.  In nuclear science, report titles are also less informative than  those of journal articles, but the proportion of reports with completely  uninformative titles is now only 10% of the 1957 value.  Titles in chemistry are more informative than those in most other fields, but the use of alerting and other services based on titles requires a good understanding of the underlying information transfer principles.
+==================================================
+
+Model: VSM
+query: How can actually pertinent data, as opposed to references or entire articles themselves, be retrieved automatically in response to information requests?
+Retrieved Document ID: 1155
+Content: A Study of Information Requests for Scientific Research and Design This paper describes methods of studying information requests on source information, analyzes results of questionnaire distribution. On the basis of the questionnaire answers a card file of the subject requests and list of requests on source information was formed. Since the study these requests determines the content and purpose of the information process, the author suggests that the study of requests be the first phase of information process.
+--------------------
+Model: The Language Model
+query: How can actually pertinent data, as opposed to references or entire articles themselves, be retrieved automatically in response to information requests?
+Retrieved Document ID: 1399
+Content: Syntactic Structures   This study deals with syntactic structure both in the broad sense (as opposed to semantics) and the narrow sense (as opposed to phonemics and morphology).  It forms part of an attempt to construct a formalized general theory of linguistic structure and to explore the foundations of such a theory.  The search for rigorous formulation in linguistics has a much more serious motivation than mere concern for logical niceties or the desire to purify well-established methods of linguistic analysis.  Precisely constructed models for linguistic structure can play an important role, both negative and positive, in the process of discovery itself.  By pushing a precise but inadequate formulation to an unacceptable conclusion, we can often expose the exact source of this inadequacy and, consequently, gain a deeper understanding of the linguistic data.  More positively, a formalized theory may automatically provide solutions for many problems other than those for which it was explicitly designed. Obscure and intuition-bound notions can neither lead to absurd conclusions nor provide new and correct ones, and hence they fail to be useful in two important respects.
+==================================================
+
+Model: VSM
+query: What is information science?  Give definitions where possible.
+Retrieved Document ID: 469
+Content: The Phenomena of Interest to Information Science    Discusses the various explicit and implicit definitions of information and information science, against a view of their historical development.. Shows how the various views of information science overlap with other disciplines, and concludes with a proposal for a definition of information science based on  social need.. A schema of information sciences is put forward with the plea that any discussion of information and information science should first declare the definitions to be used..
+--------------------
+Model: The Language Model
+query: What is information science?  Give definitions where possible.
+Retrieved Document ID: 469
+Content: The Phenomena of Interest to Information Science    Discusses the various explicit and implicit definitions of information and information science, against a view of their historical development.. Shows how the various views of information science overlap with other disciplines, and concludes with a proposal for a definition of information science based on  social need.. A schema of information sciences is put forward with the plea that any discussion of information and information science should first declare the definitions to be used..
+==================================================
+
+Model: VSM
+query: Image recognition and any other methods of automatically transforming printed text into computer-ready form.
+Retrieved Document ID: 790
+Content: Computer Indexing of Medical Articles - Project Medico    An automatic indexing method is described in which index tags for documents  are generated by the computer.. The computer scans the text of periodical  articles and automatically assigns to them index terms with their respective  weights on the basis of explicitly defined text characteristics.. A machine  file of document references with their associated index terms is automatically  produced which can be searched on a co-ordinate basis for the retrieval of  specified drug-related information..
+--------------------
+Model: The Language Model
+query: Image recognition and any other methods of automatically transforming printed text into computer-ready form.
+Retrieved Document ID: 746
+Content: Subject Indexes and Automatic Document Retrieval    Index entries from the subject indexes to CA can, in general, be converted to 'normal' or title-like phrases by applying simple tests to the positions of prepositions and conjunctions in the entries.. Other, more complex, entries can be transformed after somewhat deeper analysis.. These manipulations are a  necessary preliminary step to the use of the subject-index language in  retrieval..A scheme is outlined for automatically compiling and editing subject  indexes by transforming descriptive phrases with regular structure and  vocabulary.. These transformations, based on the formal structure of language,  are shown to be admirably suited to computer manipulation..
+==================================================
+
+Model: VSM
+query: What special training will ordinary researchers and businessmen need for proper information management and unobstructed use of information retrieval systems? What problems are they likely to encounter?
+Retrieved Document ID: 1105
+Content: Information Services for Supervisory Staff, Forms and Methods    In the general practice, the management information systems are set aside as a special area..  The paper elaborates the aspects of selecting forms of management information, as well as those of the methods of its preparation, and the interrelation between the forms and the methods..  The basic criteria for this kind of information are defined, and the categories or types of likely demands for it are set up..  Examples of management information services are given based on the practice of information centers of Czechoslovakia, GDR, Great Britain..  The proceedings of the Prague symposium for the analysis of various methods of management information preparation are shortly reviewed..    The developed SDI system aimed to serve the management is described and also the results of its one year operation are analyzed..
+--------------------
+Model: The Language Model
+query: What special training will ordinary researchers and businessmen need for proper information management and unobstructed use of information retrieval systems? What problems are they likely to encounter?
+Retrieved Document ID: 122
+Content: Information Networks   The rapidly growing rate at which information is produced and used in our complex society has presented us with major problems in information transfer.  We encounter these problems not only in libraries, information centers, and schools, but also in many of the operations of government and business.  The handling of large amounts of information is becoming a dominant theme in the management of our way of life.  We are a technologically oriented society, and we have naturally turned to our communications technology to help us perform our enormous information transfer task.  Beginning with the telegraph and continuing through the telephone, through radio  and television to the communications satellite, the methods of electrical signal transmission have served to distribute information to its ultimate users.
+==================================================
+
