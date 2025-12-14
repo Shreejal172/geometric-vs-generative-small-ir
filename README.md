@@ -8,8 +8,27 @@ The comparison is performed on two classic small datasets: **CISI** and **CRAN**
 
 ## Datasets
 
-*   **CRAN (Cranfield Collection)**: [https://ir.dcs.gla.ac.uk/resources/test_collections/cran/](https://ir.dcs.gla.ac.uk/resources/test_collections/cran/)
-*   **CISI (Institute for Scientific Information)**: [https://www.kaggle.com/datasets/dmaso01dsta/cisi-a-dataset-for-information-retrieval/code](https://www.kaggle.com/datasets/dmaso01dsta/cisi-a-dataset-for-information-retrieval/code)
+### CISI (Information Science)
+*   **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/dmaso01dsta/cisi-a-dataset-for-information-retrieval/code)
+*   **Structure**: 1,460 documents (titles + abstracts), 112 queries.
+*   **Relevance Judgments**: Available for 76 queries. Note that different queries have different numbers of relevant documents (e.g., Query 1 has 46, Query 4 has 8), so Recall is calculated relative to the specific query's set of relevant docs.
+
+### CRAN (Aerodynamics)
+*   **Source**: [Glasgow ID Dataset](https://ir.dcs.gla.ac.uk/resources/test_collections/cran/)
+
+## Retrieval Models
+
+1.  **Vector Space Model (VSM)**: Uses TF-IDF for weighting terms and Cosine Similarity to measure the angle between query and document vectors. It is effective for catching specific keywords.
+2.  **Language Model (LM)**: Uses Dirichlet Smoothing ($\mu=4000$) to estimate the probability of generating the query from the document model. It handles term frequency distribution differently, penalizing long documents less aggressively than some vector normalizations.
+
+## Evaluation Metrics
+
+The project uses the following metrics to evaluate performance:
+
+*   **Recall**: Calculated as `(Number of matches) / (Total relevant docs for that query)`. This is normalized per query since the number of relevant documents varies.
+*   **Precision@10**: The fraction of relevant documents in the top 10 retrieved results.
+*   **MAP@10 (Mean Average Precision)**: The average precision at rank 10, averaged across all queries. This rewards placing relevant documents higher in the top 10.
+*   **nDCG@10**: Normalized Discounted Cumulative Gain at 10. This measures ranking quality by giving more credit to relevant items appearing earlier in the list, comparing against an ideal ranking.
 
 ## Observations & Conclusion
 
